@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Shopping Cart</title>
+    <link rel="stylesheet" href="cart.css" media="screen" type="text/css" />
+</head>
+<body>
+    <div id="site">
+        <header id="masthead">
+            <h1>Your Shopping Cart</h1>
+        </header>
+        <div id="content">
+            <table class="shopping-cart">
+                <thead>
+                    <tr>
+                        <th scope="col">Item</th>
+                        <th scope="col">Qty</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Total</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items"></tbody>
+            </table>
+            <p id="sub-total">
+                <strong>Sub Total</strong>: <span id="stotal"></span>
+            </p>
+            <ul id="shopping-cart-actions">
+                <li><a href="index.html" class="btn">Continue Shopping</a></li>
+                <li><a href="#" class="btn" id="clear-cart">Clear Cart</a></li>
+                <li><button id="checkout-button" class="btn">Proceed to Checkout</button></li>
+            </ul>
+        </div>
+        <footer id="site-info">
+            <p>&copy; Your Website. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>

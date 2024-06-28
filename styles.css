@@ -1,0 +1,237 @@
+
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the navigation */
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('Assets/heroesbg.jpg'); 
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+/*Services*/
+.heroes {
+    padding: 2rem 0;
+  }
+  
+  .card {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    margin-bottom: 20px;
+  }
+
+/* Style the main content */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Product card */
+.card {
+    margin-bottom: 20px;
+}
+
+/* Team */
+#team
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+
+#team h1 {
+  margin-bottom: 50px; /* Add this line */
+}
+
+.profile-pic .img-box
+{
+	opacity: 1;
+	display: block;
+	position: relative;
+}
+
+.profile-pic .img-box img
+{
+	filter: grayscale(1);
+	
+}
+
+.profile-pic .img-box img:hover
+{
+	filter: grayscale(0);
+	cursor: pointer;
+	
+}
+
+.profile-pic h2
+{
+	font-size: 22px;
+	margin-top:15px;
+	color: #000000!important;
+	
+}
+
+#team .fa
+{
+	height:25px;
+	width: 25px;
+	background: #fff;
+	padding: 4px;
+	border-radius: 50%;
+}
+
+.img-box ul
+{
+	padding: 15px 0;
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	opacity: 0;
+}
+
+.img-box ul li
+{
+	padding: 5px;
+	display: inline-block;
+}
+
+.img-box:hover ul
+{
+	opacity: 1;
+	
+}
+
+.img-box ul, .img-box ul
+{
+	transition: 0.5s;
+}
+
+.img-responsive
+{
+	height: 250px;
+	width: 200px;
+	margin: 0px 50px;
+	
+	
+}
+
+/* Form */
+
+#contact
+{
+	background: #efefef;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+
+.contact-form
+{
+	padding: 15px;
+}
+
+::placeholder
+{
+	color: #999!important;
+}
+
+.follow
+{
+	background: #fff;
+	padding: 10px;
+	margin: 15px;
+}
+
+.contact-info .fa
+{
+	margin: 10px;
+	color: #949596;
+	font-weight: bold;
+}
+
+
+
+  

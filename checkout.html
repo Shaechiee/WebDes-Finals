@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="cart.css" media="screen" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="checkout.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Checkout</h1>
+    </header>
+    
+    <main>
+        <section id="order-summary">
+            <h2>Order Summary</h2>
+            <div id="checkout-details"></div>
+        </section>
+        
+        ...
+<section id="payment-info">
+    <h2>Payment Information</h2>
+        <form id="payment-form"> 
+            <div class="form-group">
+                <label for="card-number">Card Number</label>
+                <input type="text" id="card-number" name="card-number" required>
+            </div>
+            <div class="form-group">
+                <label for="expiration-date">Expiration Date</label>
+                <input type="text" id="expiration-date" name="expiration-date" required>
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" required>
+            </div>
+                <button type="submit">Place Order</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Checkout. All rights reserved.</p>
+    </footer>
+</body>
+</html>
